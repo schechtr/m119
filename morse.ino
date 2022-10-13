@@ -2,17 +2,17 @@
 void dot() {
   // Dot
   digitalWrite(LED_BUILTIN, HIGH); 
-  delay(1000);                     
+  delay(500);                     
   digitalWrite(LED_BUILTIN, LOW);   
-  delay(1000);  
+  delay(500);  
 }
 
 void dash() {
   // Dash
   digitalWrite(LED_BUILTIN, HIGH); 
-  delay(2000);                     
+  delay(1500);                     
   digitalWrite(LED_BUILTIN, LOW);   
-  delay(1000);
+  delay(500);
 }
 
 
@@ -29,15 +29,21 @@ void loop() {
   dot();
   dot();
   dot();
+  
+  delay(1000);
 
   // E
   dot();
 
+  delay(1000);
+  
   // L
   dot();
   dash();
   dot();
   dot();
+  
+  delay(1000);
   
   // L
   dot();
@@ -45,11 +51,15 @@ void loop() {
   dot();
   dot();
 
+  delay(1000);
+  
   // O
   dash();
   dash();
   dash();
 
+  delay(3000);
+  
   // I
   dot();
   dot();
