@@ -1,7 +1,7 @@
 #include <WiFiNINA.h>
 
-const char ssid[] = "TDX";  
-const char pass[] = "cheezits"; 
+const char ssid[] = ""  
+const char pass[] = ""; 
 
 int status = WL_IDLE_STATUS;             // the Wi-Fi radio's status
 int ledState = LOW;                       //ledState used to set the LED
