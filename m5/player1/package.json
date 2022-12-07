@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@abandonware/noble": "^1.9.2-15",
+    "apexcharts": "^3.36.3",
+    "chartjs-plugin-streaming": "^2.0.0",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  }
+}
